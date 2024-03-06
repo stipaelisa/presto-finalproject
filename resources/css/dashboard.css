@@ -1,0 +1,57 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 1200px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+thead th {
+  background-color: #0089BA;
+  color: #fff;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.btn-dash {
+  border: 2px solid #0089BA;
+  color: #0089BA;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.btn-dash:hover {
+  background-color: #0089BA;
+  color: #fff;
+}
+
+.btn-success {
+  border-color: #4CAF50;
+  color: #4CAF50;
+}
+
+.btn-success:hover {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.btn-danger {
+  border-color: #f44336;
+  color: #f44336;
+}
+
+.btn-danger:hover {
+  background-color: #f44336;
+  color: #fff;
+}

@@ -1,0 +1,8 @@
+.register-img {
+    background: url(./../img/istockphoto-1336136316-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30rem;
+    border-radius: 8px;
+}
+

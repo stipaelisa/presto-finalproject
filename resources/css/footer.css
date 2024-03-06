@@ -1,0 +1,37 @@
+.bgFooter {
+    background-color: var(--main-cyan);
+    
+}
+
+.bgNavFooter {
+    /* background-color: rgba(0, 145, 255, 0.521); */
+    /* background-color: rgba(0, 0, 0, 0.546); */
+    background-color: var(--main-yellow);
+    color: black;
+}
+
+.foot-link {
+    color: black;
+    font-size: 16px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .foot-link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: var(--main-yellow);
+    bottom: -3px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  .foot-link:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }

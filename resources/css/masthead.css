@@ -1,0 +1,7 @@
+.masthead {
+    height: 85vh;
+    background-image: url(./../img/masthead2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

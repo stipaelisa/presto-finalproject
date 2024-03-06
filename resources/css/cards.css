@@ -1,0 +1,25 @@
+.card-style {
+    /* background-color: var(--main-yellow); */
+    box-shadow: 3px 3px 10px #d8d5d5;
+    transition: all 0.3s;
+}
+
+.card-style:hover {
+    box-shadow: 5px 5px 15px #d1c9c9;
+    transition: all 0.3s;
+}
+
+.card-category {
+    width: 700px;
+}
+
+#card-price{
+    color: var(--main-cyan2);
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+.card {
+     margin-bottom: 10px;
+    }
+  }

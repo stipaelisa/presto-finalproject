@@ -1,0 +1,46 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+#logo{
+    font-family: 'Prosto One', cursive;
+    
+}
+
+:root {
+
+    --main-orange: #fb5607;
+    --main-yellow: #ffbe0b;
+    --main-yellow2: #e9c46a;
+    --main-cyan: #0089BA;
+    --main-cyan2: #2C73D2;
+    --main-cyan3: #8FB1DF;
+    --main-grey:#1D1D1B;
+
+}
+
+.font-title{
+    font-family: 'Prosto One', cursive;
+
+}
+
+.bg-title{
+    background-color: var(--main-cyan);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bg-title-alt{
+    background-color: var(--main-yellow);;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.FontLato {
+    font-family: 'Assistant', sans-serif;
+}
+
+.fontYellow {
+    color: var(--main-yellow);
+}
